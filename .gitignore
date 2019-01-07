@@ -1,0 +1,20 @@
+## generic files
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+## composer files
+composer.phar
+composer.lock
+
+## Symfony directories
+vendor/*
+*/logs/*
+*/cache/*
+
+## IDE files and directories
+nbproject
+.idea
+.project
