@@ -1,6 +1,8 @@
 <?php
 namespace LSVH_Dynamic_WP_Config;
 
+defined('ABSPATH') or die();
+
 class Init
 {
 	private static $slash = '/';
@@ -49,8 +51,13 @@ class Init
 	}
 
 	private static function get_path($install_dir = '') {
+		$backtrace = debug_backtrace();
+		$backtrace = !empty($backtrace) && is_array($backtrace) ? array_values(array_filter($backtrace, function($x) {
+			return is_array($x) && array_key_exists('file', $x) && basename($x['file']) === 'wp-config.php';
+		})) : [];
+		
 		$root = rtrim($_SERVER['DOCUMENT_ROOT'], self::$slash);
-		$dir = rtrim(dirname(__FILE__), self::$slash);
+		$dir = rtrim(dirname(empty($backtrace) ? '' : $backtrace[0]['file']), self::$slash);
 		$file_dir = rtrim(dirname($_SERVER['SCRIPT_FILENAME']), self::$slash);
 
 		$path_dif = substr($file_dir, strlen($dir));
