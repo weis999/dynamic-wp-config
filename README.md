@@ -1,8 +1,8 @@
 Dynamic WordPress config
 =============
 
-[![Packagist Version](https://img.shields.io/packagist/v/LSVH/dynamic-wp-config.svg?style=flat-square)](https://packagist.org/packages/LSVH/dynamic-wp-config)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/LSVH/dynamic-wp-config.svg?style=flat-square)](https://packagist.org/packages/LSVH/dynamic-wp-config)
+[![Packagist Version](https://img.shields.io/packagist/v/LSVH/dynamic-wp-config.svg?style=flat-square)](https://packagist.org/packages/lsvh/dynamic-wp-config)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/LSVH/dynamic-wp-config.svg?style=flat-square)](https://packagist.org/packages/lsvh/dynamic-wp-config)
 
 Dynamically conifugre paths in your WordPress config file.
 
@@ -11,7 +11,7 @@ Installation
 Open a terminal in the same folder as your `wp-config.php` file.
 
 ```shell
-composer require LSVH/dynamic-wp-config
+composer require lsvh/dynamic-wp-config
 ```
 
 Afterwards you should add the following to the top of your `wp-config.php` file.
