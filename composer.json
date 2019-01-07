@@ -10,7 +10,7 @@
             "email": "info@lsvh.org"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "LSVH_Dynamic_WP_Config\\": "src/LSVH_Dynamic_WP_Config/"
