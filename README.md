@@ -17,7 +17,7 @@ composer require lsvh/dynamic-wp-config
 Afterwards you should add the following to the top of your `wp-config.php` file.
 
 ```php
-require 'vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 ```
 
 Usage
