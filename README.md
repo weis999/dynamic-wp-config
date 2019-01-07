@@ -1,8 +1,9 @@
 Dynamic WordPress config
 =============
 
-[![Packagist Version](https://img.shields.io/packagist/v/LSVH/dynamic-wp-config.svg?style=flat-square)](https://packagist.org/packages/lsvh/dynamic-wp-config)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/LSVH/dynamic-wp-config.svg?style=flat-square)](https://packagist.org/packages/lsvh/dynamic-wp-config)
+[![Travis-CI](https://img.shields.io/travis/LSVH/dynamic-wp-config/master.svg)](https://travis-ci.org/LSVH/dynamic-wp-config)
+[![Packagist](https://img.shields.io/packagist/v/lsvh/dynamic-wp-config.svg)](https://packagist.org/packages/lsvh/dynamic-wp-config)
+[![Packagist downloads](https://img.shields.io/packagist/dt/lsvh/dynamic-wp-config.svg)](https://packagist.org/packages/lsvh/dynamic-wp-config)
 
 Dynamically conifugre paths in your WordPress config file.
 
