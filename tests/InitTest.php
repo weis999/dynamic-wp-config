@@ -1,10 +1,8 @@
 <?php
 
-namespace LSVH_Dynamic_WP_Config;
+namespace LSVH\WordPress\DynamicConfig;
 
 use PHPUnit\Framework\TestCase;
-
-//use \LSVH_Dynamic_WP_Config\Init as Dynamic_Config;
 
 final class InitTest extends TestCase
 {
