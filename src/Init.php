@@ -1,5 +1,6 @@
 <?php
-namespace LSVH_Dynamic_WP_Config;
+
+namespace LSVH\WordPress\DynamicConfig;
 
 defined('ABSPATH') or die();
 

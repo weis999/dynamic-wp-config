@@ -29,10 +29,10 @@ Usage
 Usually you will do something like...
 
 ```php
-use \LSVH_Dynamic_WP_Config\Init as Dynamic_Config;
+use \LSVH\WordPress\DynamicConfig\Init as DynamicConfig;
 
-define('WP_HOME', Dynamic_Config::url_with_path());
-define('WP_SITEURL', Dynamic_Config::url_with_path());
+define('WP_HOME', DynamicConfig::url_with_path());
+define('WP_SITEURL', DynamicConfig::url_with_path());
 ```
 
 Syntax

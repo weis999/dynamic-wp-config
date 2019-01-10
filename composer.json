@@ -1,7 +1,7 @@
 {
     "name": "lsvh/dynamic-wp-config",
     "description": "Dynamically conifugre paths in your WordPress config file.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "LSVH_Dynamic_WP_Config\\": "src/LSVH_Dynamic_WP_Config"
+            "LSVH\\WordPress\\DynamicConfig\\": "src/"
         }
     },
     "require": {
